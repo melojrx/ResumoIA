@@ -2,9 +2,9 @@ import streamlit as st
 import openai 
 import os
 
-# Lê a chave da API da variável de ambiente
-openai.api_key = os.environ["OPENAI_API_KEY"]
 
+# Lê a chave da API da variável de ambiente
+openai.api_key = "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"
 
 # Define o título da página
 st.title("Resumo de Texto com ChatGPT")
