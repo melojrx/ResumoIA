@@ -4,7 +4,9 @@ import os
 
 
 # Lê a chave da API da variável de ambiente
-openai.api_key = os.environ["OPENAI_API_KEY"] == st.secrets["chaveOpenAI"]
+#openai.api_key = os.environ["OPENAI_API_KEY"] 
+
+openai.api_key = st.secrets["chaveOpenAI"]
 
 # Define o título da página
 st.title("Resumo de Texto com ChatGPT")
